@@ -133,10 +133,18 @@ body {
   text-transform: capitalize;
 }
 .nationalty {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 6px;
   width: 100%;
+}
+.arrowNatioality{
+  position: absolute;
+    bottom: 13px;
+    z-index: 100;
+    right: 20px;
+    cursor: pointer;
 }
 .ts-control {
   padding: 14px 8px !important;
@@ -172,6 +180,13 @@ body {
 .code {
   width: 100px;
   position: relative;
+}
+.arrowCode{
+  position: absolute;
+  top: 14px;
+  z-index: 100;
+  right: 5px;
+  cursor: pointer;
 }
 #select-code .ts-control {
   padding: 14px 10px !important;

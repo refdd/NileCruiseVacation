@@ -72,9 +72,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     opacity: 1;
     display: block;
     background: url('../image/Chevron (1).png') no-repeat;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     padding-right: 20px;
+    padding-bottom:10px ;
     border-width: thin;
 }
 /* responsev desktop */
