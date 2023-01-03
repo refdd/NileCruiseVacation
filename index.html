@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/css/tom-select.css"
+      rel="stylesheet"
+    />
+    <title>from</title>
+  </head>
+  <body>
+    <div class="banner">
+      <!-- header buttom -->
+      <div class="header_From">
+        <div class="header">TAILOR MAKE YOUR TRIP</div>
+        <div class="description">
+          With Nile Cruise Vacation you can customize your trip as you prefer.
+        </div>
+      </div>
+      <!-- from  -->
+      <div class="container">
+        <div class="from-container">
+          <div class="from">
+            <!-- steps -->
+            <div class="steps">
+              <div class="step active">1</div>
+              <div class="stepLiner active"></div>
+              <div class="step">2</div>
+              <div class="stepLiner"></div>
+
+              <div class="step">3</div>
+            </div>
+            <!-- liner -->
+            <div class="line_from"></div>
+            <!-- form input -->
+            <div class="fromInput">
+              <div class="inputcontainter">
+                <p class="fromTitle">Let’s plan your trip now!</p>
+                <!-- mail and name -->
+                <div class="Mail_name">
+                  <div class="name">
+                    <label>name</label>
+                    <input type="text" placeholder="name" />
+                  </div>
+                  <div class="mail">
+                    <label>Mail</label>
+                    <input type="text" placeholder="mail" />
+                  </div>
+                </div>
+                <!-- nationality and number code -->
+                <div class="nationAndNumber">
+                  <!-- nationalty -->
+                <div class="nationalty">
+                  <label>nationalty</label>
+                  <select
+                    id="select-beast"
+                    placeholder="Natioality .."
+                    autocomplete="off"
+                  >
+                    <option value="">Select a person...</option>
+                    <option value="4">Thomas Edison</option>
+                    <option value="1">Nikola</option>
+                    <option value="3">Nikola Tesla</option>
+                    <option value="5">Arnold Schwarzenegger</option>
+                  </select>
+                </div>
+                <!-- Mobile Number -->
+                <div class="condNumberConteiner">
+                  <label> Code </label>
+                  <div class="inputNumberContainer">
+                    <div class="code">
+                      <select
+                        id="select-code"
+                        placeholder="Code"
+                        autocomplete="off"
+                      >
+                        <option value="">+20</option>
+                        <option value="4">+30</option>
+                        <option value="1">+29</option>
+                        <option value="3">+70</option>
+                        <option value="5">+300</option>
+                      </select>
+                      <!-- <div class="codeImag">
+                        <img src="../image/Chevron.png" alt="">
+                       </div> -->
+                    </div>
+                    <div class="number">
+                      <input type="number" placeholder="Number" />
+                    </div>
+                  </div>
+                </div>
+                </div>
+               <!-- counter  -->
+          <div class="inputCounterContainer">
+            <div class="counterContainer">
+              <p>aduilt (+12)</p>
+              <div class="counter">
+                <div onclick="addCounter('aduilt')" class="add">
+                  <img src="../image/Plus.png" alt="">
+                </div>
+                <div id="aduilt" class="C_counter"></div>
+                <div  onclick="removeCounter('aduilt')"  class="remove">
+                  <img src="../image/Minus.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="counterContainer">
+              <p>Children(-12)</p>
+              <div class="counter">
+                <div onclick="addCounter('Children')" class="add">
+                  <img src="../image/Plus.png" alt="">
+                </div>
+                <div id="Children" class="C_counter"></div>
+                <div onclick="removeCounter('Children')"  class="remove">
+                  <img src="../image/Minus.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="counterContainer">
+              <p>infants(0 to 2)</p>
+              <div class="counter">
+                <div onclick="addCounter('infants')" class="add">
+                  <img src="../image/Plus.png" alt="">
+                </div>
+                <div id="Infants"  class="C_counter"></div>
+                <div onclick="removeCounter('infants')" class="remove">
+                  <img src="../image/Minus.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nextButtom">
+            <a href="/pages/page2.html">
+              <button><span>Next</span></button>
+            </a>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/js/tom-select.complete.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
