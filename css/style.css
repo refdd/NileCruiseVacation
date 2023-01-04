@@ -59,7 +59,7 @@ body {
   font-size: 16px;
   border: 0.5px solid #c6c6c6;
   font-family: "Roboto";
-  font-weight:500;
+  font-weight:600;
 }
 .step.active {
   background: #157ffb;
@@ -171,6 +171,7 @@ border-radius: 10px;
   font-size: 14px;
   line-height: 28px;
   color: #c0c0c0;
+  text-transform: capitalize;
 }
 .name input[type="text"]:focus,
 .mail input[type="text"]:focus {
@@ -197,7 +198,7 @@ border-radius: 10px;
 }
 
 #select-code + .ts-wrapper.single .ts-control {
-  padding: 14px 10px !important;
+  padding: 14.2px 10px !important;
   border-radius: 10px 0 0 10px !important;
   border-right: 0;
   }
@@ -212,6 +213,14 @@ border-radius: 10px;
   border-radius: 0 10px 10px 0;
   width: 91%;
 }
+.number input[type="number"]::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #c0c0c0;
+  text-transform: capitalize;
+}
 .number input[type="number"]:focus {
   outline: none;
 }
@@ -225,7 +234,7 @@ border-radius: 10px;
 .counterContainer {
   display: flex;
   flex-direction: column;
-  width: 46%;
+  width: 48%;
 }
 .counterContainer p {
   margin: 0;
@@ -242,13 +251,13 @@ border-radius: 10px;
   gap: 10px;
   align-items: center;
   justify-content: space-between;
-  padding: 9px 13px 9px 12px;
+  padding: 10px 9px;
   background: #ffffff;
   border: 1px solid #c4c4c4;
   border-radius: 10px;
 }
 .counter.Children {
-  margin-right: -5px;
+  /* margin-right: -5px; */
 }
 .C_counter {
   font-family: "Roboto";
