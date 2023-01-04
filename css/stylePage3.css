@@ -26,6 +26,9 @@ color: #828282;
     align-items: center;
     justify-content: space-between;
 }
+.startDate ,.endDate{
+  width: 48%;
+}
 .startDate , .endDate ,  .textArea{
     display: flex;
     flex-direction: column;
@@ -39,7 +42,7 @@ color: #828282;
   background: #ffffff;
   border: 1px solid #c4c4c4;
   border-radius: 10px;
-  width: 152px;
+  width: 100%;
 }
 .startDate input::placeholder,
 .endDate input::placeholder
