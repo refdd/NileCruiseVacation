@@ -344,7 +344,13 @@ border-radius: 10px;
     font-size: 48px;
   }
   .header_From .description {
-    font-size: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
   }
   .steps {
     width: 40%;
