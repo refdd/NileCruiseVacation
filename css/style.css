@@ -120,6 +120,7 @@ body {
   display: flex;
   align-items: center;
   gap: 9px;
+  margin-top: -5px;
 }
 .name,
 .mail {
